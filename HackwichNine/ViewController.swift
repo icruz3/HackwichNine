@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.myLabel.text=""
     }
 
 
+    @IBAction func segmentedControlPressed(_ sender: Any) {
+        
+        
+        
+    }
+    
+    
 }
 
