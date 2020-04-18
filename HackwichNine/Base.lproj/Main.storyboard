@@ -16,18 +16,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hNh-mB-PZ2">
-                                <rect key="frame" x="142" y="550" width="131" height="31"/>
+                                <rect key="frame" x="51" y="551" width="312" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
+                                    <segment title="Third"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedControlPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="ryN-Nm-pwS"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTg-yC-VSl">
-                                <rect key="frame" x="0.0" y="273" width="414" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTg-yC-VSl">
+                                <rect key="frame" x="0.0" y="244" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -44,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-281.15942028985512" y="-100.44642857142857"/>
+            <point key="canvasLocation" x="-201.44927536231884" y="-142.63392857142856"/>
         </scene>
     </scenes>
 </document>

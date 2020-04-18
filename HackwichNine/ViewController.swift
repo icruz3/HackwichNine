@@ -17,14 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        segmentedControl.selectedSegmentIndex = -1
         self.myLabel.text=""
     }
 
 
-    @IBAction func segmentedControlPressed(_ sender: Any) {
-        
-        
+    @IBAction func segmentedControlPressed(_ sender: Any)
+    {
         switch
         segmentedControl
             .selectedSegmentIndex {
@@ -33,14 +32,14 @@ class ViewController: UIViewController {
             
         case 1:
             self.myLabel.text = "Index 1 selected, I got this"
+            case 2:
+            self.myLabel.text = "Woohoo this makes sense now!"
 
         default: break
             
         }
-        
-        
-    }
     
+    }
     
 }
 
